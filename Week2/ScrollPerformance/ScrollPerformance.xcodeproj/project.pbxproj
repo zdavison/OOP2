@@ -15,6 +15,7 @@
 		87F6B8F11A9B98F800BA2C2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87F6B8EF1A9B98F800BA2C2C /* LaunchScreen.xib */; };
 		87F6B8FD1A9B98F900BA2C2C /* ScrollPerformanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F6B8FC1A9B98F900BA2C2C /* ScrollPerformanceTests.m */; };
 		87F6B9071A9B99BF00BA2C2C /* hemsworth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F6B9061A9B99BF00BA2C2C /* hemsworth.jpg */; };
+		87F6B90B1A9BB4B300BA2C2C /* placeholder_hemsworth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87F6B90A1A9BB4B300BA2C2C /* placeholder_hemsworth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		87F6B8FB1A9B98F900BA2C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87F6B8FC1A9B98F900BA2C2C /* ScrollPerformanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollPerformanceTests.m; sourceTree = "<group>"; };
 		87F6B9061A9B99BF00BA2C2C /* hemsworth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hemsworth.jpg; sourceTree = "<group>"; };
+		87F6B90A1A9BB4B300BA2C2C /* placeholder_hemsworth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder_hemsworth.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				87F6B8EA1A9B98F800BA2C2C /* Main.storyboard */,
 				87F6B8ED1A9B98F800BA2C2C /* Images.xcassets */,
 				87F6B9061A9B99BF00BA2C2C /* hemsworth.jpg */,
+				87F6B90A1A9BB4B300BA2C2C /* placeholder_hemsworth.jpg */,
 				87F6B8EF1A9B98F800BA2C2C /* LaunchScreen.xib */,
 				87F6B8E01A9B98F800BA2C2C /* Supporting Files */,
 			);
@@ -206,6 +209,7 @@
 				87F6B9071A9B99BF00BA2C2C /* hemsworth.jpg in Resources */,
 				87F6B8F11A9B98F800BA2C2C /* LaunchScreen.xib in Resources */,
 				87F6B8EE1A9B98F800BA2C2C /* Images.xcassets in Resources */,
+				87F6B90B1A9BB4B300BA2C2C /* placeholder_hemsworth.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +422,7 @@
 				87F6B9021A9B98F900BA2C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87F6B9031A9B98F900BA2C2C /* Build configuration list for PBXNativeTarget "ScrollPerformanceTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				87F6B9051A9B98F900BA2C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
