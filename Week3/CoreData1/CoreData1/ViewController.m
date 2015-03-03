@@ -21,14 +21,23 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   
-  _entries = [self existingEntries] ?: [NSMutableArray array];
+  
+  
+  /////
+  
+  /////
+  
+  
+  
+  
+  _entries = [self existingEntries].mutableCopy ?: [NSMutableArray array];
 }
 
-- (NSMutableArray*)existingEntries{
+- (NSArray*)existingEntries{
   
   NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Entry"];
   NSArray *results = [[CoreDataStack sharedInstance].managedObjectContext executeFetchRequest:fetchRequest error:nil];
-  return results.mutableCopy;
+  return results;
 }
 
 - (IBAction)saveButtonPressed:(id)sender{
@@ -65,12 +74,6 @@
   cell.textLabel.text = entry.value;
   return cell;
   
-}
-
-#pragma mark UITextFieldDelegate
-
-- (BOOL)textFieldShouldReturn:(UITextField *)textField{
-  return true;
 }
 
 @end
