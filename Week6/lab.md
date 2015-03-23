@@ -30,3 +30,4 @@ Tips
 ------------
 
 - You can use UICollectionView, but it may be simpler to just create UIView instances and manage them yourself.
+- If you are implementing drag and drop, think about how you would snap the cards to their position / column.
