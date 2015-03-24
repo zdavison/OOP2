@@ -31,3 +31,12 @@ Tips
 
 - You can use UICollectionView, but it may be simpler to just create UIView instances and manage them yourself.
 - If you are implementing drag and drop, think about how you would snap the cards to their position / column.
+
+Resources
+-------------
+
+- You can use this macro to generate a random color.
+```objc
+#define RANDOM_COLOR                                                           \
+[UIColor colorWithRed : (CGFloat)random() / (CGFloat)RAND_MAX green : (CGFloat)random() / (CGFloat)RAND_MAX blue : (CGFloat)random() / (CGFloat)RAND_MAX alpha : 1.0]
+```
