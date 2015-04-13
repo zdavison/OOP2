@@ -14,7 +14,7 @@ Requirements
 
 - Replicate the layout using Interface Builder / AutoLayout
 - Orienting the screen should change the layout to suit portrait / landscape
-- Pressing the button should animate the colored box off screen, change it's color, and then animate it back in.
+- Pressing the button should animate the colored box off screen upwards, change it's color, and then animate it back in.
 - The label should display the name of the color displayed.
 
 Hints
