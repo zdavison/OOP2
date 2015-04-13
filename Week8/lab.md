@@ -5,15 +5,16 @@ The goal of this lab is to replicate the UI below using AutoLayout.
 
 Your layout must be reactive, you must define the relationships using AutoLayout and then when you rotate the screen orientation to landscape, it should rotate correctly to the right position.
 
-![portrait][portrait.png]
-![landscape][landscape.png]
+![portrait](https://raw.githubusercontent.com/zdavison/OOP2/master/Week8/portrait.png)
+
+![landscape](https://raw.githubusercontent.com/zdavison/OOP2/master/Week8/landscape.png)
 
 Requirements
 ======================
 
 - Replicate the layout using Interface Builder / AutoLayout
 - Orienting the screen should change the layout to suit portrait / landscape
-- Pressing the button should animate the colored box off screen, change it's color, and then animate it back in.
+- Pressing the button should animate the colored box off screen upwards, change it's color, and then animate it back in.
 - The label should display the name of the color displayed.
 
 Hints
