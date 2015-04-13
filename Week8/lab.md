@@ -5,9 +5,9 @@ The goal of this lab is to replicate the UI below using AutoLayout.
 
 Your layout must be reactive, you must define the relationships using AutoLayout and then when you rotate the screen orientation to landscape, it should rotate correctly to the right position.
 
-![portrait][https://raw.githubusercontent.com/zdavison/OOP2/master/Week8/portrait.png]
+![portrait](https://raw.githubusercontent.com/zdavison/OOP2/master/Week8/portrait.png)
 
-![landscape][https://raw.githubusercontent.com/zdavison/OOP2/master/Week8/landscape.png]
+![landscape](https://raw.githubusercontent.com/zdavison/OOP2/master/Week8/landscape.png)
 
 Requirements
 ======================
