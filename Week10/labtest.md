@@ -1,0 +1,35 @@
+OOP2 Lab Test
+=======================
+
+The goal of this lab test is to model a system that you can then enter data into, persist it using Core Data, and display it on subsequent launches of the app.
+
+You need to model a system to input college Courses.
+Courses have Students, a Lecturer, and a Room.
+Students have names and grades.
+Lecturers have names.
+Rooms have numbers.
+
+Model this object graph in Core Data, then provide the following:
+
+- A screen where you can view the courses.
+- Upon tapping a course, you should be taken to another screen that shows the lecturer, room and list of students and grades.
+- You should then be able to enter data into the app somehow. A suggestion would be to use a '+' button to add a course or student. You must be able to add both Courses and Students.
+- Courses, Students, etc, should be persisted in Core Data, between app launches.
+
+Grading
+================
+
+- 10% for the list of courses
+- 20% for the screen that shows the lecturer, room, and list of students/grades.
+- 10% for the ability to add students.
+- 10% for the ability to add courses.
+- 50% for persisting data in Core Data.
+
+Attempt marks will be given. This test is worth 40% of your final grade.
+
+Plagiarism
+==============
+
+You are free to use online resources for this test to guide you, since Core Data has a lot of boilerplate code, however, if I think you don't understand the concepts themselves (eg: you blindly copypasted it), be prepared to answer some questions :)
+
+Do not blindly copy code from the web or other students. This may result in a grading penalty or involving the exam board.
