@@ -33,3 +33,12 @@ Plagiarism
 You are free to use online resources for this test to guide you, since Core Data has a lot of boilerplate code, however, if I think you don't understand the concepts themselves (eg: you blindly copypasted it), be prepared to answer some questions :)
 
 Do not blindly copy code from the web or other students. This may result in a grading penalty or involving the exam board.
+
+Tuesday Students
+=============
+
+In the interest of fairness, please complete the above test, but add a search field to be able to search the courses. Your search field should perform its query in Core Data, not locally in the table!
+
+Adjustment to grading:
+- 10% for this search.
+- 40% for persisting data in Core Data. (previously 50%)
