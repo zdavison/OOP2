@@ -1,7 +1,7 @@
 iOS2 Assignment
 =====================
 
-![](whatsapp.png)
+![](whatsapp.PNG)
 
 Your assignment is to copy the UI of the Whatsapp chat screen below. The UI should be able to accept new input in the UITextField, and append it to the list. No networking is necessary, or persistence.
 
