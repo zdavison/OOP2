@@ -5,6 +5,8 @@ iOS2 Assignment
 
 Your assignment is to copy the UI of the Whatsapp chat screen above. The UI should be able to accept new input in the UITextField, and append it to the list. No networking is necessary, or persistence.
 
+For data in the messages, use whatever you want. You do not need to replicate the audio clip cell.
+
 Due Date
 --------------------
 15th June 2015
